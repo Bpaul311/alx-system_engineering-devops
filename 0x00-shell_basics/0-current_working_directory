@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Current directory: $(cd "$(dirname "$0")" && pwd)"
+echo "Current directory: $(pwd -P)"
