@@ -1,2 +1,2 @@
 #!/bin/bash
-[200~pwd | sed 's/^/Current directory: /'
+echo "Current directory: $(pwd)"
