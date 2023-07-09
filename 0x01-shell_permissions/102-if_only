@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -from=guillaume betty hello
+find . -maxdepth 1 -name "hello" -user guillaume -exec chown betty {} +
