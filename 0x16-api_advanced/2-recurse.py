@@ -1,3 +1,4 @@
+
 #!/usr/bin/python3
 """
 Script to query a list of all hot posts on a given Reddit subreddit.
@@ -59,3 +60,4 @@ def recurse(subreddit, hot_list=[], after="", count=0):
 
     # Return the final list of hot post titles
     return hot_list
+
